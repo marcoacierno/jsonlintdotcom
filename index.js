@@ -1,5 +1,4 @@
 function keydown(event, textarea) {
-  console.log(event);
   var keyCode = event.keyCode || event.which;
 
   if (keyCode === 9) {
